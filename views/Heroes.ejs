@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="/body-header.css">
+    <link rel="stylesheet" href="/Heroes.css">
+    <script defer type="module" src="/Search_Anime.js"></script>
+    <script defer type="module" src="/Heroes.js"></script>
+</head>
+<body class="body">
+
+    <%- include("blocks/header") %>
+
+<main class="main" id="main">
+    <div class="hero-div">
+        
+        <div class="name__div">
+
+            <span id="hero-name" class="hero-name"></span> 
+
+        </div>
+        
+        <div class="poster-description__div">
+
+            <img class="hero-poster" src="" alt="" id="hero-poster">
+
+            <div class="hero-description" id="hero-description">
+
+                <span class="hero-description-title">Description</span>
+                <span class="hero-description-description no-description-yet" id="hero-description-description">No description yet</span>
+
+            </div>
+
+        </div>
+
+        <div class="anime-container" id="anime-container"></div>
+
+    </div>
+</main>
+
+</body>
+</html>

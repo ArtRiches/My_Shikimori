@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="/body-header.css">
+    <link rel="stylesheet" href="/Genres.css">
+    <script defer type="module" src="/Search_Anime.js"></script>
+    <script defer type="module" src="/Genres.js"></script>
+</head>
+<body class="body">
+
+    <%- include("blocks/header") %>
+
+<main class="main" id="main">
+    <h1 class="title">Anime genre: <%= genre %></h1>
+    <div class="animes-div" id="animes-div"></div>
+</main>
+
+</body>
+</html>

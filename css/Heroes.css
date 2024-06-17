@@ -1,0 +1,193 @@
+.body{
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0% 15%;
+    background-color: rgb(60, 60, 60);
+}
+
+.hero-div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    min-height: 100%;   
+    margin: 0% 3%;
+    padding: 4%;
+    padding-top: 0.5%;
+    gap: 20px;
+    background-color: rgb(50, 50, 50);
+}
+.hero-name {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    font-size: 40px;
+    color: rgb(225, 225, 225);
+    text-shadow: 5px 6px 7px rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 0;
+}
+
+.poster-description__div{
+    display: flex;
+    gap: 20px;
+}
+
+.hero-poster {
+    width: 191px;
+    height: 300px;
+    box-shadow: 5px 6px 7px rgb(0,0,0);
+}
+
+.hero-description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: rgb(40,40,40);
+    border-radius: 1.5%;
+    text-shadow: 2px 3px 4px rgb(0, 0, 0);
+    box-shadow: 2px 3px 4px rgb(0, 0, 0); 
+    font-size: 17px;
+    width: 73.5%;
+    height: max-content;
+    max-height: 375px;
+}
+
+.hero-description-title {
+    font-size: 25px;
+    text-shadow: 5px 6px 7px rgb(0, 0, 0);
+}
+
+.hero-description-description {
+    margin: 5px;
+}
+
+.no-description-yet {
+    color: rgb(190, 190, 190);
+    font-style: italic;
+}
+
+.titles {
+    display: flex;
+    align-items: center;
+    background-color: rgb(40,40,40);
+    padding: 10px;
+    border-radius: 0.5vw;
+    height: 27.734px;
+    font-size: 25px;
+    text-shadow: 5px 6px 7px rgb(0, 0, 0);
+    box-shadow: 2px 3px 4px rgb(0, 0, 0);
+   
+}
+
+
+
+
+.anime-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.anime {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 27px;
+}
+
+.anime__items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90.1%;
+    min-width: 1003px;
+    gap: 1.5%;
+}
+
+.anime__item {
+    display: flex;
+    flex-direction: column;
+    width: 18.8%;
+    max-width: 178.47px;
+    max-height: 330.88px;
+    background-color: rgb(40,40,40);
+    box-shadow: 2px 3px 4px rgb(0, 0, 0);
+    gap: 1%;
+    padding: 0.5%;
+    font-size: 14px;
+}
+
+.anime__item__hover {
+    height: 100%;
+    width: 100%;
+    font-family: "Tahoma";
+    color: rgb(225, 225, 225);
+    text-decoration: none;
+}
+.anime__item:hover {
+    background-color: rgb(35,35,35);
+    box-shadow: 8px 12px 16px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.anime__item:hover div{
+    color: rgb(255, 255, 255);
+}
+.anime__item:hover span{
+    color: rgb(255, 255, 255);
+}
+
+.anime__img {
+    width: 100%;
+    height: 83.5%;
+    max-width: 178.47px;
+    max-height: 272.33px;
+    object-fit: cover;
+}
+
+.anime__info {
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+    margin-bottom: 3%;
+}
+
+.anime__info span{
+    background-color: rgb(20,20,20);
+    box-shadow: 1px 2px 3px rgb(0,0,0);
+    max-width: 100px;
+    font-family: "Tahoma";
+    color: rgb(225, 225, 225);
+    text-shadow: 1px 2px 3px rgb(0,0,0);
+    text-decoration: none;
+    padding: 1.5% 2%;
+    border-radius: 10%;
+}
+
+.anime__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 111px;
+    border: 0;
+    font-size: 16px;
+    color: rgb(225, 225, 225);
+    background-color: rgb(50, 50, 50);
+    height: 44px;
+}
+
+.anime__button:hover{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.hidden{
+    display: none;
+}

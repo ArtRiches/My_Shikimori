@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Shikimori</title>
+    <link rel="stylesheet" href="body-header.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer type="module" src="index.js"></script>
+    <script defer type="module" src="Search_Anime.js"></script>
+</head>
+<body class="body">
+
+    <%- include("blocks/header") %>
+
+    <main class="main" id="main">
+        
+        <h1 class="titles">Recommended for you</h1>
+
+        <div class="recommended-anime-container">
+
+            <button class="recommended-anime__btn" id="recommended-anime__prev-btn"><</button>
+
+            <div class="recommended-anime__info-container">
+
+                <video class="info__video" src="" controls autoplay muted width id="info__video"></video>
+
+                <div class="info__details-container">
+
+                    <a class="details__hover" href="" id="details__hover">
+
+                        <p class="details__name" id="details__name"></p>
+
+                        <img class="details__img" src="" alt="Anime poster" id="details__img">
+
+                    </a>
+
+                    <ul class="details__genres" id="details__genres">
+
+                        <li class="genres__item">
+                            <a href="">Action</a>
+                        </li>
+
+                     </ul>
+
+                </div>
+
+            </div>
+
+            <button class="recommended-anime__btn" id="recommended-anime__next-btn">></button>
+
+        </div>
+
+
+        <h1 class="titles">Now on screen</h1>
+        <div class="animes-container" id="now-on-screen-animes"></div>
+
+        <h1 class="titles">All animes</h1>
+        <div class="animes-container" id="all-animes"></div>
+
+    </main>
+
+</body>
+</html> 
